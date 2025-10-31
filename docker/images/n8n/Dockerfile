@@ -48,6 +48,7 @@ ENV NODE_ENV=production
 ENV N8N_RELEASE_TYPE=${N8N_RELEASE_TYPE}
 ENV NODE_ICU_DATA=/usr/local/lib/node_modules/full-icu
 ENV SHELL=/bin/sh
+ENV N8N_PUSH_BACKEND=sse
 
 WORKDIR /home/node
 
